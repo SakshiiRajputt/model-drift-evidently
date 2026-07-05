@@ -1,17 +1,3 @@
-"""
-drift_report.py
-----------------
-Task 4: Use Evidently AI to compare the reference dataset against the
-current (drifted) dataset and generate an HTML report covering:
-  - Classification quality metrics (Accuracy, Precision, Recall, F1)
-  - Feature (data) drift
-  - Prediction drift
-  - Distribution changes
-  - Target drift
-  - Visual charts
-
-Output: reports/model_drift_report.html
-"""
 
 from pathlib import Path
 
@@ -62,7 +48,6 @@ def main():
     my_eval.save_html(str(report_path))
     print(f"Saved Evidently drift report to {report_path}")
 
-    # Also print a short console summary so it's visible without opening the HTML
     result_dict = my_eval.dict()
     print("\n--- Quick summary (see HTML report for full detail) ---")
     print(f"Report generated with {len(result_dict.get('metrics', []))} top-level metric blocks.")

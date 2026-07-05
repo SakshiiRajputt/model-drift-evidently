@@ -1,19 +1,3 @@
-"""
-bonus_comparison.py
---------------------
-BONUS: Compare how Logistic Regression and Random Forest degrade under the
-same simulated drift, and produce a bar chart visualizing the comparison.
-
-This script does NOT rely on the previously saved model.pkl (which is
-Logistic Regression only). Instead it retrains both models from scratch on
-the same train split used in train.py, so the comparison is apples-to-apples.
-
-Outputs:
-  - models/model_rf.pkl                     (trained Random Forest)
-  - reports/performance_comparison.png       (bar chart: LR vs RF, reference vs current)
-  - Console printout of all metrics
-"""
-
 from pathlib import Path
 
 import numpy as np

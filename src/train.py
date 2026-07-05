@@ -1,12 +1,3 @@
-"""
-train.py
---------
-Task 1: Train a Logistic Regression model on the Breast Cancer Wisconsin
-         dataset and save it as models/model.pkl
-Task 2: Save the reference dataset (features + true target + model
-         predictions) as data/reference.csv, which Evidently will later
-         use as the "known good" baseline for drift comparison.
-"""
 
 import pickle
 from pathlib import Path
@@ -17,9 +8,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-# ---------------------------------------------------------------------
 # Paths
-# ---------------------------------------------------------------------
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 MODEL_DIR = ROOT / "models"

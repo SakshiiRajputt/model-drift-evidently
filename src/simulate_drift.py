@@ -1,18 +1,3 @@
-"""
-simulate_drift.py
-------------------
-Task 3: Simulate "production" data that has drifted away from the
-reference distribution, then score it with the saved model and write
-the result to data/current.csv.
-
-Drift is introduced in four ways, combined together, to make the
-resulting drift report as illustrative as possible:
-  1. Gaussian noise added to several numeric features (covariate/feature drift)
-  2. A systematic shift (mean shift) applied to a couple of key features
-  3. 10% of the true labels flipped (label/target drift & concept drift)
-  4. One "important" feature dropped and back-filled with a constant so
-     the model effectively loses access to it (feature removal drift)
-"""
 
 import pickle
 from pathlib import Path
