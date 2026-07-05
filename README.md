@@ -1,6 +1,6 @@
 # Model Drift Detection using Evidently AI
 
-A beginner-level MLOps project that trains a classifier, simulates real-world
+A project that trains a classifier, simulates real-world
 production data drift, and uses **Evidently AI** to detect and visualize that
 drift in an HTML report.
 
