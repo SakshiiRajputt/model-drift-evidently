@@ -125,9 +125,9 @@ meaningfully hurt real-world model performance.
 
 ## Screenshots
 
-!\[Drift Report](reports/screenshot1.png)
+![Drift Report](reports/screenshot1.png)
 
-!\[Drift Report](reports/screenshot2.png)
+![Drift Report](reports/screenshot2.png)
 
 ## Key Learnings
 
