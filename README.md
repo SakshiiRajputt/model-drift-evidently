@@ -140,7 +140,7 @@ non-overlapping slice of the dataset:
   automatically rather than discovering degraded performance after the
   fact in production.
 
-## Bonus: Logistic Regression vs. Random Forest Under Drift
+## Logistic Regression vs. Random Forest Under Drift
 
 To go beyond the core requirements, `src/bonus_comparison.py` trains a
 **Random Forest** classifier alongside the original Logistic Regression
